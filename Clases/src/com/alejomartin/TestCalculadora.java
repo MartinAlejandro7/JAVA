@@ -25,7 +25,11 @@ public class TestCalculadora {
 		double r5;
 		r5 = c1.promedio(10, 8, 9);
 		System.out.println("el resultado del promedio es: "+ r5);
+		
+		c1.mostrarResultado();
+		
 	}
+	
 	
 		
 
