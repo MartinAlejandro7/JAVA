@@ -5,41 +5,40 @@ public class TestPlato {
 	public static void main(String[] args) {
 		Plato platoA = new Plato();
 		
-		platoA.nombre = "Camarones Apanados";
-		platoA.tipo = "Entrada";
-		platoA.precio = 3.50f;
-		platoA.disponible =  true;
+		platoA.setNombre("Camarones Apanados");
+		platoA.setTipo("Entrada");
+		platoA.setPrecio(250);
+		platoA.setDisponible(true);
 		
-		System.out.println("### PLATO A###");
-		System.out.println("Nombre: "+platoA.nombre);
-		System.out.println("Tipo: "+ platoA.tipo);
-		System.out.println("Precio: "+ platoA.precio);
-		System.out.println("Disponible: "+ platoA.disponible);
+		System.out.println("### PLATO A ###");
+		System.out.println("Nombre: "+platoA.getNombre());
+		System.out.println("Tipo: "+ platoA.getTipo());
+		System.out.println("Precio: "+ platoA.getPrecio());
+		System.out.println("Disponible: "+ platoA.isDisponible());
 		
 		
 		Plato platoB = new Plato();
-		platoB.nombre = "Lomo Saltado";
-		platoB.tipo = "Plato Fuerte";
-		platoB.precio = 5.10f;
-		platoB.disponible =  true;
+		platoB.setNombre("Lomo Saltado");
+		platoB.setTipo("Plato Fuerte");
+		platoB.setPrecio(250);
+		platoB.setDisponible(true);
 		System.out.println("### PLATO B###");
-		System.out.println("Nombre: "+platoB.nombre);
-		System.out.println("Tipo: "+ platoB.tipo);
-		System.out.println("Precio: "+ platoB.precio);
-		System.out.println("Disponible: "+ platoB.disponible);
+		System.out.println("Nombre: "+platoB.getNombre());
+		System.out.println("Tipo: "+ platoB.getTipo());
+		System.out.println("Precio: "+ platoB.getPrecio());
+		System.out.println("Disponible: "+ platoB.isDisponible());
 		
 		Plato platoC = new Plato();
 		
-		platoC.nombre = "Torta de Zanahoria";
-		platoC.tipo = "Postre";
-		platoC.precio = 1.50f;
-		platoC.disponible =  true;
-		
-		System.out.println("### PLATO C###");
-		System.out.println("Nombre: "+platoC.nombre);
-		System.out.println("Tipo: "+ platoC.tipo);
-		System.out.println("Precio: "+ platoC.precio);
-		System.out.println("Disponible: "+ platoC.disponible);
+		platoC.setNombre("Torta De Zanahoria");
+		platoC.setTipo("Postre");
+		platoC.setPrecio(50);
+		platoC.setDisponible(true);
+		System.out.println("### PLATO B###");
+		System.out.println("Nombre: "+platoC.getNombre());
+		System.out.println("Tipo: "+ platoC.getTipo());
+		System.out.println("Precio: "+ platoC.getPrecio());
+		System.out.println("Disponible: "+ platoC.isDisponible());
 		
 	}
 

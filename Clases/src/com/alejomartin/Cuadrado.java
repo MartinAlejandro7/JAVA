@@ -1,7 +1,7 @@
 package com.alejomartin;
 
 public class Cuadrado {
-	int lado;
+	private int lado;
 	
 	public double calcularArea() {
 		double areaCuadrado = lado * lado;
@@ -12,4 +12,13 @@ public class Cuadrado {
 		double resultPerimetro = lado * 4;
 		return resultPerimetro;
 	}
+
+	public int getLado() {
+		return lado;
+	}
+
+	public void setLado(int lado) {
+		this.lado = lado;
+	}
+	
 }

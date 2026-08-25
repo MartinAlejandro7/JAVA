@@ -6,23 +6,23 @@ public class TestRestautante {
 		
 		Restaurante rest1 = new Restaurante();
 		
-		rest1.nombre = "Restaurante1";
-		rest1.direccion = "El teleferico";
-		rest1.calificacion = "10";
+		rest1.setNombre("Restaurante UNO");  
+		rest1.setDireccion("El teleferico"); 
+		rest1.setCalificacion("200");
 		System.out.println("=======RESTAURANTE 1========");
-		System.out.println("nombre de restaurante: "+ rest1.nombre);
-		System.out.println("direccion del restaurante: "+ rest1.direccion);
-		System.out.println("calificacion al restarate: "+ rest1.calificacion);
+		System.out.println("nombre de restaurante: "+ rest1.getNombre());
+		System.out.println("direccion del restaurante: "+ rest1.getDireccion());
+		System.out.println("calificacion al restarate: "+ rest1.getCalificacion());
 		
 		Restaurante rest2 = new Restaurante();
 		
-		rest2.nombre = "Restaurante2";
-		rest2.direccion = "La Mañozca";
-		rest2.calificacion = "9";
-		System.out.println("=======RESTAURANTE 2========");
-		System.out.println("nombre de restaurante: "+ rest2.nombre);
-		System.out.println("direccion del restaurante: "+ rest2.direccion);
-		System.out.println("calificacion al restarate: "+ rest2.calificacion);
+		rest2.setNombre("Restaurante DOS");  
+		rest2.setDireccion("La Mañozca"); 
+		rest2.setCalificacion("550");
+		System.out.println("=======RESTAURANTE 1========");
+		System.out.println("nombre de restaurante: "+ rest2.getNombre());
+		System.out.println("direccion del restaurante: "+ rest2.getDireccion());
+		System.out.println("calificacion al restarate: "+ rest2.getCalificacion());
 		
 
 	}
