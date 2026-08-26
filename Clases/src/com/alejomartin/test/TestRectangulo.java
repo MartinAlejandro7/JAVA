@@ -1,4 +1,6 @@
-package com.alejomartin;
+package com.alejomartin.test;
+
+import com.alejomartin.Rectangulo;
 
 public class TestRectangulo {
 

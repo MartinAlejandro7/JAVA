@@ -1,4 +1,6 @@
-package com.alejomartin;
+package com.alejomartin.test;
+
+import com.alejomartin.Plato;
 
 public class TestPlato {
 
